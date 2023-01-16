@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rowdies&family=Secular+One&display=swap');
+
+/* Fonts: 
+
+font-family: 'Cabin', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Secular One', sans-serif;
+
+ */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.header {
+    margin-bottom: 10rem;
+    font-family: 'Rowdies', cursive;
+    font-size: 2rem;
+    border-radius: 100%;
+}
+
+.heading {
+    text-shadow: 3px 3px rgb(182, 182, 182);
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.ip-address {
+    text-align: center;
+    display: flex;
+}
+
+.ip-text {
+    flex: 1;
+    font-family: 'Rowdies', sans-serif;
+    font-size: xx-large;
+    float: left;
+    padding: 2rem;
+    background-color: black;
+    color: orange;
+}
+
+.ip-tab {
+    padding: 2rem;
+    background-color: orange;
+    float: right;
+    width: 45%;
+    height: auto;
+}
+
+
+
+.ip-number {
+    font-family: 'Rowdies', sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.middle {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.task {
+    font-size: 4rem;
+    font-family: 'Secular One', sans-serif;
+    color: grey;
+}
+
+.title-2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 5px 5px black;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.btntxt {
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+.student {
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+
+.input1 {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.inputform {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#formtable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#formtable td,
+#formtable th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#formtable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#formtable tr:hover {
+    background-color: #ddd;
+}
+
+#formtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.help {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}
+
+#disable_top {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+#disable_down {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
